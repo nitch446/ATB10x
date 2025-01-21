@@ -1,4 +1,4 @@
-package ex_011_Functions;
+package Ex_011_Functions;
 
 public class _07_Instance_Function {
     public void displayMessage()

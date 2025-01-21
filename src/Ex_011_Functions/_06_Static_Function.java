@@ -1,4 +1,4 @@
-package ex_011_Functions;
+package Ex_011_Functions;
 
 public class _06_Static_Function {
     public static void message()

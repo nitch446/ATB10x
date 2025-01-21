@@ -1,4 +1,4 @@
-package ex_011_Functions;
+package Ex_011_Functions;
 
 public class _03_Function_With_Parameter_And_Return_Value {
     public static int sum(int a, int b)

@@ -1,4 +1,4 @@
-package ex_011_Functions;
+package Ex_011_Functions;
 
 public class _08_Function_With_Default_Parameters {
     public static void greet(String name, String greeting)

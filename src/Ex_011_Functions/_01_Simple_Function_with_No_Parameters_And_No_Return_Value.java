@@ -1,4 +1,4 @@
-package ex_011_Functions;
+package Ex_011_Functions;
 
 public class _01_Simple_Function_with_No_Parameters_And_No_Return_Value {
     public static void greet()

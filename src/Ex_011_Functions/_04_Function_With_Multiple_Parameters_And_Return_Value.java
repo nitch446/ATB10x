@@ -1,4 +1,4 @@
-package ex_011_Functions;
+package Ex_011_Functions;
 
 public class _04_Function_With_Multiple_Parameters_And_Return_Value {
 
