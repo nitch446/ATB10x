@@ -7,8 +7,9 @@ public class _06_Access_MultiDimen_Elements_using_forLoop {
      {
          for(int j=0; j<3; j++)
          {
-             System.out.println(array[i][j]);
+             System.out.print(array[i][j]+" ");
          }
+         System.out.println();
      }
 
     }

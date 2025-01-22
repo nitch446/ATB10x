@@ -7,6 +7,6 @@ public class _10_Replace_Character {
         String str = "Hello Java jordan";
         System.out.println("Replace 'J with 'k': "+str.replace('J','k'));
 
-        System.out.println("Replace Jordan with Nitn: "+str.replace("jordan","Nitin"));
+        System.out.println("Replace Jordan with Nitin: "+str.replace("jordan","Nitin"));
     }
 }

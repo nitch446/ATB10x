@@ -3,7 +3,7 @@ package Ex_012_String;
 public class _07_Trim_String {
     public static void main(String[] args) {
 
-        // Trims tabs, newline, space aroung the string
+        // Trims tabs, newline, space around the string
         // Example 1: Removing leading and trailing spaces
         String str = "\t    Hello world    \n";
         System.out.println("Before Trim: "+str);
