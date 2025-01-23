@@ -1,4 +1,4 @@
-package Ex_16_Oops_Concept_Abstraction_Abstract;
+package Ex_016_Oops_Concept_Abstraction_Abstract;
 
 // Abstraction meaning hiding the implementation and showing only essential.
 // It can have both abstract methods (methods without a body) and concrete methods (methods with a body).
