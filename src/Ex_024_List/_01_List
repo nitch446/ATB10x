@@ -1,0 +1,59 @@
+- list is a part of java.util package
+- list is an interface that represents an ordered collection of elements
+
+# Key Features
+- Elements ara stored in the order that are inserted.
+- Duplicate elements are allowed
+- Elements accessed using index position
+- the size of the list dynamically grows or shrinks like ArrayList or LinkedList
+
+# List Child Classes
+- ArrayList (Resizable array) (50%, increments the capacity)
+- LinkedList (Doubly LinkedList)
+- Vector (Synchronized list)
+- Stack  (last-in first-out list, extends vector)
+
+
+# Important
+   Grand Father Reference  =  Child Object
+- Collection obj = new Arraylist(); // Dynamic Dispatch
+- List obj = new Arraylist(); // Dynamic Dispatch
+- ArrayList obj = new Arraylist()
+
+# Array - insertion in between is costly difficult, need to shifts all elements
+        - search and update is easy
+
+# Ways to initialize list
+1. using of(), max 10 arguments it can take and it is static
+2. Arraylist - Delete element is costly, need to shift all elements
+             - insertion in between is costly difficult, need to shifts all elements
+             - search and update is easy
+3. LinkedList - DoublyLinked List,
+              - finding element is difficult or heavy or slow
+              - adding element in between is easy or light or fast
+              - deleting element is light
+4. Vector - Array, old legacy
+5. Stack - Vector, Old Legacy
+
+
+# Important list functions
+1. size()
+2. add()
+3. remove()
+4. clear()
+5. get()
+6. set()
+7. add()
+8. indexOf()
+9. lastIndexOf()
+10. isEmpty()
+11. contains()
+
+# Vector
+- Dynamically Resizeable (100%, Doubles the capacity)
+- Elements ara stored in the order that are inserted.
+- Allows Duplicate and Null Elements
+- All methods in Vector are synchronized (one by one), making it suitable for use in multi-threaded environments.
+- Becoz of unnecessary overhead vector(takes more time) is slower than ArrayList (takes less time)
+- used in banking system
+- At a time one operation either add amount or withdraw amount.
