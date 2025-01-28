@@ -1,0 +1,32 @@
+# Generics
+- It provides type safety, reusability, flexibility
+- Avoids explicit casting and run time errors
+- Type Safety: Generics ensure that only compatible data types are used, reducing runtime errors.
+- Code Reusability: Generic classes and methods can work with any data type.
+- Eliminate Type Casting: Generics eliminate the need for explicit type casting, making the code cleaner.
+- Compile-Time Checking: Errors related to type mismatches are caught at compile time.
+
+# Generic Class Syntax
+
+class className <T>{
+     private T value;
+     public void setValue(T value){
+        this.value = value;
+     }
+
+     public T getValue(){
+        return value
+     }
+}
+
+# Generic Method Syntax
+
+public <T> T genericMethod(T param) {
+    System.out.println(param);
+}
+
+# Generic Interface Syntax
+
+ interface InterfaceName <T> {
+     T operate(T param);
+ }

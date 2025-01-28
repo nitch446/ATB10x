@@ -1,0 +1,49 @@
+- Exceptions are the events that disrupts the normal flow of a program.
+- Two Type
+- A) Checked
+    - These are the exception that are checked at compile time.
+    - Developer Explicitly handles these exception using try-catch block
+    - or by declaring the exception using the throws keyword in the method signature.
+    - BrokerBarrierException, IOException, SQLException, FileNotFoundException, ClassNotFoundException
+    - InterruptedException, ParseException
+
+
+- B) UnChecked
+    - These are not checked at compile time but occurs at runtime.
+    - Typically the result is programming error.
+    - such as logic mistake or improper use of an API.
+    - ArrayIndexOutOfBoundsException, NullPointerException, ArithmeticException are subclass RuntimeException
+    - IllegalArgumentException, NumberFormatException
+
+    => Throwable -> Exception ->ArithmeticException
+
+    public class UncheckedExceptionExample {
+        public static void main(String[] args) {
+            int[] numbers = {1, 2, 3};
+            System.out.println(numbers[5]);
+        }
+    }
+
+-----------xxxx---------------
+
+finally
+- It will always be executed.
+- It is used to close the DB connections, scanner class sc.close().
+- Exit Block where you want to close something.
+
+-----------xxxx---------------
+
+catch
+- we can have multiple catch
+- catch(){}
+  catch(){}
+  Catch(){}
+- An Multiple Exception in catch Argument
+- catch(ArrayIndexOutOfBoundsException | NumberFormatException | ArithmeticException e)
+- e.getMessage()
+
+----------xxxx---------------
+
+throws
+- defined on method level
+- void animal() throws FileNotFoundException, Exception{ }
